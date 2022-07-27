@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tour_events",
+  "info": {
+    "singularName": "tour-event",
+    "pluralName": "tour-events",
+    "displayName": "Tour Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "venue": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "ticketsLink": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    }
+  }
+}

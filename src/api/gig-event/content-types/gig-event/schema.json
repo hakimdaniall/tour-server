@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gig_events",
+  "info": {
+    "singularName": "gig-event",
+    "pluralName": "gig-events",
+    "displayName": "Gig Event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "venue": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "ticketLink": {
+      "type": "string"
+    }
+  }
+}
