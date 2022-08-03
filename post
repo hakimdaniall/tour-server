@@ -1,0 +1,2 @@
+=== obscure-peak-91330 Config Vars
+DATABASE_URL: postgres://jpomcebgsslxtj:9082e7cc4d26e20b34e7813ecdd7242edc7ea89d38604ac679812f181fcfb399@ec2-34-193-44-192.compute-1.amazonaws.com:5432/d735b8mf56nihl
